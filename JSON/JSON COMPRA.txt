@@ -1,0 +1,21 @@
+/*-----------------INSERTAR---------------------------------------*/
+ http://localhost:3000/compra/nuevaCompra
+
+/*-----------------ACTUALIZAR---------------------------------------*/
+ http://localhost:3000/compra/nuevaCompra
+
+
+{
+        "COD_INV": 2,
+        "COD_EMPRESA": 2,
+        "COD_PRODUCTO": 2,
+        "COD_PERSONA": 2,
+        "NOM_PROD": "'CLAVITOS'",
+        "DEST_PROD": "'Uruguay'",
+        "DEST_CLIENT": "'Honduras'",
+        "DISP_PROD": 4,
+        "CANT_PROD": 4,
+        "PREC_COMP": 10 ,   
+        "IMPUE_COMP": 20,
+        "TOTAL_COMP": 120
+    }

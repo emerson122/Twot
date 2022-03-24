@@ -1,0 +1,44 @@
+/////////////VEER TABLA O PERO ID EN JSON///////////////
+
+http://localhost:3000/enproduccion/1
+
+
+///////////INSERTADO EN EL JSON FUNCIONANDO//////////////
+
+
+http://localhost:3000/enproduccion/insertar
+
+
+{
+        "COD_EMPRESA": 1,
+        "NOM_PROD_EN": "'b3so'",
+        "CAN_PRODUCTO": 50,
+        "COS_PROD_EN": 100,
+        "OPERACION": 1,
+        "FILA":1
+    }
+
+
+
+///////////JSON PARA ACTUALIZAR FUNCIONANDO/////////////////////////////
+
+http://localhost:3000/enproduccion/actualizar/1
+
+{
+        "COD_EMPRESA": 1,
+        "NOM_PROD_EN": "'b3ss'",
+        "CAN_PRODUCTO": 50,
+        "COS_PROD_EN": 100,
+        "OPERACION": 1,
+        "FILA":1
+    }
+
+
+
+/////////////BORRAR POR ID EN JSON///////////////
+
+http://localhost:3000/enproduccion/borrar/1
+
+
+
+

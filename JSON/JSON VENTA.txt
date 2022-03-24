@@ -1,0 +1,22 @@
+/*/////////////////INSERTAR///////////////////*/
+
+http://localhost:3000/venta/agregar
+
+/*/////////////////ACTUALIZAR///////////////////*/
+http://localhost:3000/venta/actualizar/1
+
+
+{
+    "COD_INV": 1,
+    "COD_PERSONA": 1,
+    "COD_PRODUCTO": 1,
+    "NOM_PRODUCTO": "'peueba'",
+    "CANT_PRODUCTO": 1,
+    "PREC_UNITARIO": 50,
+    "TOTAL_BRUTO": 50,
+    "DESTINO_VENTA": "'TEGUCIGALPA'",
+    "IMPUE_TOTAL": 20,
+    "TOTAL_VENTA": 70,
+    "OPERACION": 1,
+    "FILA": 1
+}

@@ -1,0 +1,49 @@
+
+/////////////VEER TABLA O PERO ID EN JSON///////////////
+
+http://localhost:3000/fabricante/1
+
+
+
+///////////INSERTADO EN EL JSON FUNCIONANDO//////////////
+
+
+http://localhost:3000/fabricante/insertar
+
+
+{
+        "PROVEEDORES": "'nuevo2'",
+        "DIR_EMPRESA": "'pia'",
+        "TEL_EMPRESA": 62666,
+        "COR_EMPRESA": "'laraclhgmail.com'",
+        "NOM_PRODUCTO": "'tu'",
+        "UNIDADES": 104,
+        "COS_PRODUCTO": 10,
+        "OPERACION": 1,
+        "FILA":1
+    }
+
+
+
+
+///////////JSON PARA ACTUALIZAR FUNCIONANDO/////////////////////////////
+
+http://localhost:3000/fabricante/actualizar/1
+
+{
+   
+        "PROVEEDORES": "'nuevo3'",
+        "DIR_EMPRESA": "'pia'",
+        "TEL_EMPRESA": 62666,
+        "COR_EMPRESA": "'laraclhgmail.com'",
+        "NOM_PRODUCTO": "'tu'",
+        "UNIDADES": 104,
+        "COS_PRODUCTO": 10
+
+    }
+
+
+/////////////BORRAR POR ID EN JSON///////////////
+
+http://localhost:3000/fabricante/borrar/2
+

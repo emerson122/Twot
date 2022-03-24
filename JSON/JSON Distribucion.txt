@@ -1,0 +1,47 @@
+-- CREACION DE JSON POST TABLA DISTRIBUCION
+{"nombreDepart": "'Francisco Morazan'",
+        "lugar_entrega": "'Tegucigalpa'",
+        "nombre": "'Esther'",
+        "OPERACION": 1,
+        "FILA":1}
+
+--CREACION DE JSON PUT TABLA DISTRIBUCION
+ {
+
+        "nombreDepart": "'honduras'",
+        "lugar_entrega": "'prueba'",
+        "nombre": "'ejemplo2'",
+        "OPERACION": 1,
+        "FILA":1
+}
+
+
+-- creacion de json tabla descripcion-- POST
+{
+        "COD_PRODUCTO" :  1,
+        "COD_ARTICULO" :1 ,
+        "COD_INV" :1 ,
+        "NOM_PRODUCTO" : "'CLAVOS GRANDES'"  ,
+        "PRECIO" :  12 ,
+        "UNIDADES" : 2 ,
+        "COLOR" : "'AMARILLO'" ,
+        "CANTIDAD" : 1  ,
+        "TAMANO" : "'GRANDE'" ,
+        "opcion" : 1 ,
+        "fila" : 1
+}
+
+-- creacion de json tabla distribucion put  
+{
+        "COD_PRODUCTO" :  1,
+        "COD_ARTICULO" :1 ,
+        "COD_INV" :1 ,
+        "NOM_PRODUCTO" : "'Pala'"  ,
+        "PRECIO" :  500 ,
+        "UNIDADES" : 1,
+        "COLOR" : "'CAFE'" ,
+        "CANTIDAD" : 1  ,
+        "TAMANO" : "'GRANDE'" ,
+        "opcion" : 1 ,
+        "fila" : 1
+}
